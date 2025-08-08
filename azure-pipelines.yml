@@ -19,10 +19,10 @@ jobs:
     inputs:
       BlackDuckScaService: 'Black Duck Hosted'
       DetectArguments: |
-        blackduck.trust.cert=true
-        detect.project.name=Jonny
-        detect.project.version.name=binary_scass
-        logging.level.detect=DEBUG
-        detect.tools=BINARY_SCAN
-        detect.binary.scan.file.path=psqlodbc_x86.msi
+        --blackduck.trust.cert=true
+        --detect.project.name=Jonny
+        --detect.project.version.name=binary_scass
+        --logging.level.detect=DEBUG
+        --detect.tools=BINARY_SCAN
+        --detect.binary.scan.file.path=psqlodbc_x86.msi
       DetectVersion: 'latest'
