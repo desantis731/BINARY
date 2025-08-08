@@ -24,5 +24,5 @@ jobs:
         --detect.project.version.name=binary_scass
         --logging.level.detect=DEBUG
         --detect.tools=BINARY_SCAN
-        --detect.binary.scan.file.path=psqlodbc_x86.msi
+        --detect.binary.scan.file.path=/home/desa/azure_devops_agent/_work/psqlodbc_x86.msi
       DetectVersion: 'latest'
