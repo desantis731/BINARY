@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ubuntu-latest'  # Use an appropriate VM image
+  name: 'aws-sup-jdesantis'
 
 jobs: 
 - job: RunBlackDuckDetect
