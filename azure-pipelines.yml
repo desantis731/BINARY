@@ -17,3 +17,16 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- task: BlackDuckDetectTask@10
+  inputs:
+    BlackDuckScaService: 'Black Duck Hosted'
+    DetectArguments: |
+      detect.binary.scan.file.path=psqlodbc_x86.msi
+      blackduck.trust.cert=true
+      detect.project.name=Jonny
+      detect.project.version.name=binary_scass
+      logging.level.detect=DEBUG
+      detect.cleanup=true
+      detect.tools=BINARY_SCAN
+    DetectVersion: 'latest'
