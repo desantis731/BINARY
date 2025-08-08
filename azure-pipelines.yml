@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: 'aws-sup-jdesantis'
+  name: 'Default'
 
 jobs: 
 - job: RunBlackDuckDetect
