@@ -20,7 +20,7 @@ jobs:
       BlackDuckScaService: 'Black Duck Hosted'
       DetectArguments: |
         --blackduck.trust.cert=true
-        --detect.project.name=Jonny
+        --detect.project.name=Azure_DevOps
         --detect.project.version.name=binary_scass
         --logging.level.detect=DEBUG
         --detect.tools=BINARY_SCAN
